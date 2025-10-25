@@ -1,0 +1,7 @@
+# Add stock symbols to filter here
+# One symbol per line
+RELIANCE
+TCS
+INFY
+HDFC
+ICICIBANK
