@@ -1,8 +1,7 @@
-Running in interactive mode...
+
 Data loaded: 2707 trading days
 Date range: 2014-03-12 to 2025-03-11
 
-Cointegration: False
 Hedge Ratio: 2.582408
 Intercept: 383.886108
 
@@ -40,7 +39,9 @@ Intercept: 383.886108
   Weighted Avg Ann Return:    501.97%
 
 ============================================================
-
+The Good - It works in theory
+The Bad -  Historical performance does not guarantee future returns; past results may not be indicative of future outcomes.
+The Ugly - No transaction cost considered here, Effective Cagr is a bloated number it considers returns generated/days held
 ============================================================
  TOP 5 WINNING TRADES
 ============================================================
