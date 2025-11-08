@@ -1,6 +1,6 @@
 # Bajaj Finance vs Bajaj Finserv Pairs Trading Strategy
 
-A sophisticated statistical arbitrage strategy implementing mean reversion trading between Bajaj Finance and Bajaj Finserv stocks using cointegration and z-score based signals.
+A sophisticated statistical arbitrage strategy implementing mean reversion trading between Bajaj Finance and Bajaj Finserv stocks using cointegration and z-score based signals. There is a results file that should be looked into
 
 ## Strategy Overview
 
