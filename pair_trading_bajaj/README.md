@@ -4,7 +4,7 @@ A sophisticated statistical arbitrage strategy implementing mean reversion tradi
 
 ## Strategy Overview
 
-This implementation employs a quantitative pairs trading approach based on the statistical relationship between Bajaj Finance (BF) and Bajaj Finserv (BFS). The strategy identifies mispricings in the relative valuation of these two fundamentally linked securities and executes mean-reverting trades when deviations exceed statistical thresholds.
+This implementation employs a quantitative pairs trading approach based on the statistical relationship between Bajaj Finance (BajFinance) and Bajaj Finserv (Bajajfinsv). The strategy identifies mispricings in the relative valuation of these two fundamentally linked securities and executes mean-reverting trades when deviations exceed statistical thresholds.
 
 ### Core Methodology
 
@@ -19,6 +19,9 @@ This implementation employs a quantitative pairs trading approach based on the s
 - **Risk-Free Allocation**: Earns risk-free returns during non-trading periods
 - **Comprehensive Analytics**: Trade-level performance attribution and risk metrics
 - **Parameter Optimization**: Configurable entry/exit thresholds and lookback periods
+
+### What Next
+- ** Expanding this to trade atm straddles between both securities, current limitation - Bloombeg Excel export limit
 
 ## Installation & Requirements
 
