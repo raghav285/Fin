@@ -4,8 +4,8 @@ Volatility Skew Trading Strategy Backtester
 Multi-timeframe volatility skew analysis backtester.
 Generates ST (5-day), MT (21-day), and LT (63-day) signals based on Z-score thresholds.
 
-Author: Your Name
-Date: 2025-11-09
+Author: Raghav Marwaha
+
 """
 
 import pandas as pd
