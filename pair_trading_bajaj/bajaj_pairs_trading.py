@@ -1,5 +1,4 @@
 
-## Updated Code (bajaj_pairs_trading.py)
 
 ```python
 """
@@ -8,7 +7,7 @@ Bajaj Finance vs Bajaj Finserv Pairs Trading Strategy
 A statistical arbitrage strategy using z-score based mean reversion
 on Bajaj Finance and Bajaj Finserv stock prices.
 
-Author: Your Name
+Author: Raghav
 License: MIT
 """
 
