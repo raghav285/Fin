@@ -1,14 +1,21 @@
-# VCP (Volatility Contraction Pattern) Stock Scanner
+Volatility Contraction Pattern (VCP) Scanner
+Purpose
+Systematically detects VCP breakout setups—high-probability price contraction patterns—across liquid Indian equities for actionable technical trading.
 
-A comprehensive Python tool for detecting Volatility Contraction Patterns (VCP) in stock data, based on the methodology popularized by Mark Minervini.
+Trading Logic
+Data: Fetches and stores daily price/volume data for all NSE-listed stocks.
 
-## Features
+Filter: Screens for strong liquidity (ADV, price filter).
 
-- **Automated Data Fetching**
-- **VCP Pattern Detection**: Identifies volatility contraction patterns with configurable parameters
-- **Technical Analysis**: Calculates moving averages, volume trends, and relative strength
-- **Database Storage**: SQLite database for efficient data storage and retrieval
-- **Export Capabilities**: Export results to CSV for further analysis
+Pattern Detection:
+
+Identifies consecutive price contractions (tightenings).
+
+Each contraction must show lower volatility and reduced volume.
+
+Looks for risk compression before breakout.
+
+Output: Flags tickers meeting VCP criteria and ranks by contraction quality; results saved for downstream trading or analysis
 
 ## Installation
 
